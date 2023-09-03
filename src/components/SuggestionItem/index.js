@@ -7,7 +7,7 @@ const SuggestionItem = props => {
   const onClickSuggestion = () => {
     updateSearchInput(suggestion)
   }
-
+SuggestionItem
   return (
     <li className="suggestion-item">
       <p className="suggestion-text">{suggestion}</p>
@@ -25,3 +25,4 @@ const SuggestionItem = props => {
     </li>
   )
 }
+export default SuggestionItem
